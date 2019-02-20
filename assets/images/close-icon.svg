@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="148px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="FontAwesome5FreeSolid, Font Awesome 5 Free" font-size="80" font-weight="700" fill="#F7EDF0">
+            <tspan x="47" y="104">times</tspan>
+        </text>
+        <filter x="-18.2%" y="-10.0%" width="138.2%" height="125.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-675.000000, -1503.000000)" fill="#F7EDF0">
+            <g id="Group" transform="translate(675.000000, 1503.000000)">
+                <path d="M101.919804,146.405818 C139.940976,138.593042 159.491996,87.4150314 140.869474,39.6021909 C122.246951,-6.61633673 72.4706889,-5.87742505 43.4571092,9.17948067 C14.4435296,23.719075 -2.73357965,50.2257091 0.357364244,92.5833614 C3.44830814,135.20068 63.8986319,153.834644 101.919804,146.405818 Z" id="Mask" fill-opacity="0.5"></path>
+                <g id="times" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                    <use xlink:href="#text-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

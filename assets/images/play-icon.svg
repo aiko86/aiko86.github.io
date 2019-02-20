@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="148px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5">
+        <g id="Landing-page-V2" transform="translate(-236.000000, -3106.000000)" fill="#F7EDF0">
+            <g id="Video/Form-section" transform="translate(0.000000, 2898.000000)">
+                <g id="Video-placeholder">
+                    <g id="play-btn" transform="translate(236.000000, 208.000000)">
+                        <path d="M101.919804,146.405818 C139.940976,138.593042 159.491996,87.4150314 140.869474,39.6021909 C122.246951,-6.61633673 72.4706889,-5.87742505 43.4571092,9.17948067 C14.4435296,23.719075 -2.73357965,50.2257091 0.357364244,92.5833614 C3.44830814,135.20068 63.8986319,153.834644 101.919804,146.405818 Z" id="Mask"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

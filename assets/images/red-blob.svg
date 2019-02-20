@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="106px" viewBox="0 0 104 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-page-V1" transform="translate(-357.000000, -808.000000)" stroke="#FD4256" stroke-width="18">
+            <g id="Speakers" transform="translate(0.000000, 817.000000)">
+                <g id="Speakers-19">
+                    <path d="M425.22367,87.0521081 C447.317053,82.4066734 458.677781,51.9765051 447.856586,23.5472486 C437.03539,-3.93403806 408.111346,-3.49468516 391.252104,5.45806959 C374.392862,14.1032338 364.411569,29.8639352 366.207658,55.0495662 C368.003747,80.3895934 403.130286,91.4692478 425.22367,87.0521081 Z" id="Mask"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

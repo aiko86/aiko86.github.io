@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="391px" height="389px" viewBox="0 0 391 389" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Mask Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="47.2896617%" y1="100%" x2="42.9268752%" y2="2.84698198%" id="linearGradient-1">
+            <stop stop-color="#FD4256" offset="0%"></stop>
+            <stop stop-color="#0847FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.7">
+        <g id="Landing-page-V2" transform="translate(-818.000000, -4104.000000)" fill="url(#linearGradient-1)">
+            <g id="2-for-1-deal" transform="translate(-125.000000, 1978.000000)">
+                <g id="Mask-Copy" transform="translate(0.315894, 0.308330)">
+                    <path d="M1306.32058,2403.29751 C1442.75574,2198.04574 1130.99105,2077.53589 1053.99174,2117.67759 C976.992421,2156.44014 936.847904,2249.43707 945.050979,2362.36254 C953.254054,2475.98028 1169.88542,2608.54928 1306.32058,2403.29751 Z" id="Mask-Copy-2" transform="translate(1142.215735, 2310.258683) rotate(-24.000000) translate(-1142.215735, -2310.258683) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

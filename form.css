@@ -1,0 +1,55 @@
+  
+
+    select,
+    textarea {
+        color: #22278F;
+    }
+
+    .required-field {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 80%;
+    }
+
+
+
+    input[type=text],
+    select,
+    textarea {
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 2%;
+    width: 60%;
+    font-size: 14px;
+    background: transparent;
+    margin: 1.5%;
+    }
+
+    .submit-button {
+       border: 1px solid #ffffff;
+     width: 165px;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    margin-top: 3%;
+                transition: all 0.3s ease;
+    
+
+
+    }
+
+
+    .submit-button:hover {
+background: rgba(255,255,255,0.85);
+        transition: all 0.3s ease;
+    color: #0947FF;
+
+    }
