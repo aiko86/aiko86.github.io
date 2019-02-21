@@ -926,7 +926,6 @@ h3 {
 
 .video-row {
     display: flex;
-    height: 60vh;
 }
 
 .video-col {
@@ -986,7 +985,7 @@ h3 {
 }
 
 .form-container {
-    padding: 40px 90px 0px 90px;
+    padding: 40px 80px 0px;
 }
 
 .columns-full-height {
@@ -1071,7 +1070,7 @@ h3 {
 }
 
 .form-container {
-    padding: 40px 32px 0px 32px;
+    padding: 40px 15px;
 }
 
 /* tablet*/
