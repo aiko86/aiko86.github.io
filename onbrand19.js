@@ -23,7 +23,7 @@ window.addEventListener('scroll', navScroll);
 function navScroll() {
     if (window.pageYOffset > 50) { /* when we scroll down 50px, the logo will become blue*/
         topLogo.style.fill = "#0947FF";
-        topHeader.style.background = "rgb(255,255,255,0.95)";
+        topHeader.style.background = "rgba(255,255,255,0.95)";
         topHeader.style.boxShadow = "1px 1px 20px rgba(68,68,78,0.2)";
         navigation.style.color = "#44444E";
         redBlob.style.top = "40%";
@@ -36,7 +36,7 @@ function navScroll() {
 
     } else {
         topLogo.style.fill = "#FFFFFF"; /* else, the logo will become white again */
-        topHeader.style.background = "rgb(255,255,255,0)";
+        topHeader.style.background = "rgba(255,255,255,0)";
         topHeader.style.boxShadow = "1px 1px 20px rgba(68,68,78,0)";
         navigation.style.color = "#FFFFFF";
          redBlob.style.top = "15%";
