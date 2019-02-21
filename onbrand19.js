@@ -6,6 +6,13 @@ var hamburgerMenuTrigger = document.querySelector(".nav-trigger");
 var hamburgerMenuContainer = document.getElementById("hamburger-container");
 var redBlob = document.querySelector(".red-blob");
 var preSpeakerRow = document.querySelector(".pre-speakers-row");
+var buttonHeader = document.querySelector(".header-small-blue-button");
+var menuLineOne = document.querySelector(".line-one");
+var menuLineTwo = document.querySelector(".line-two");
+var menuLineThree = document.querySelector(".line-three");
+var menuLineFour = document.querySelector(".line-four");
+
+
 
 
 
@@ -20,6 +27,11 @@ function navScroll() {
         topHeader.style.boxShadow = "1px 1px 20px rgba(68,68,78,0.2)";
         navigation.style.color = "#44444E";
         redBlob.style.top = "40%";
+        menuLineOne.style.backgroundColor = "#0947FF";
+                menuLineTwo.style.backgroundColor = "#0947FF";
+        menuLineThree.style.backgroundColor = "#0947FF";
+        menuLineFour.style.backgroundColor = "#0947FF";
+
 
 
     } else {
@@ -28,17 +40,22 @@ function navScroll() {
         topHeader.style.boxShadow = "1px 1px 20px rgba(68,68,78,0)";
         navigation.style.color = "#FFFFFF";
          redBlob.style.top = "15%";
+           menuLineOne.style.backgroundColor = "#FFFFFF";
+                menuLineTwo.style.backgroundColor = "#FFFFFF";
+        menuLineThree.style.backgroundColor = "#FFFFFF";
+        menuLineFour.style.backgroundColor = "#FFFFFF";
 
     }
 }
 
-//function for the sticky header
+//function for the hamburger menu
 
 hamburgerMenuContainer.addEventListener('click', toggleMenu);
 
 function toggleMenu(){
   hamburgerMenuTrigger.classList.toggle('is-open');
   hamburgerMenu.classList.toggle('is-open');
+buttonHeader.classList.toggle('button-white-border');
 
 }
 
