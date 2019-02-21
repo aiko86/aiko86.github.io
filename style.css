@@ -1186,7 +1186,8 @@ h3 {
     }
 
     .background-image {
-        height: 60vh;
+        height: 70vh;
+        background-position: 80% 100%;
     }
 
     .quote-name {
