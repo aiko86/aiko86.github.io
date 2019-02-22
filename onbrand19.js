@@ -64,7 +64,7 @@ buttonHeader.classList.toggle('button-white-border');
 window.addEventListener('scroll', blobMoves);
 
 function blobMoves() {
-    if (window.pageYOffset >= 500) { /* when we scroll down 10px, the bblob will move*/
+    if (window.pageYOffset >= 450) { /* when we scroll down, the bblob will move*/
         redBlob.style.top = "30%";
 
     } else {
