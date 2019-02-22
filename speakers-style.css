@@ -76,6 +76,15 @@ a {
     cursor: pointer;
 }
 
+.background-gradient {
+    background: linear-gradient(-210deg, #FD4256 0%, #0846FF 100%);
+        -webkit-background: linear-gradient(-210deg, #FD4256 0%, #0846FF 100%);
+    -moz-background: linear-gradient(-210deg, #FD4256 0%, #0846FF 100%);
+    -ms-background: linear-gradient(-210deg, #FD4256 0%, #0846FF 100%);
+        -o-background: linear-gradient(-210deg, #FD4256 0%, #0846FF 100%);
+
+}
+
 .speaker-name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;

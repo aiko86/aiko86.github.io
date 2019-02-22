@@ -19,10 +19,10 @@ const cardX = cardCoord.left + (card.offsetWidth / 2);
 
  const cardY = cardCoord.top + (card.offsetHeight / 2);
   
-const angleX = (cardY - yPosition) / 48;
+const angleX = (cardY - yPosition) / 42;
   //the more down with go with the cursor, more the value of the angle X will be lower. Same below, but for vertical axes
   
- const angleY = (cardX - xPosition) / - 48;
+ const angleY = (cardX - xPosition) / - 42;
   //this has to be minus in order to move on the opposite side
   
  //card.style.transform = "rotateX(" + angleX + "deg) rotateY(" + angleY + "deg)";
