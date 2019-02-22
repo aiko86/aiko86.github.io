@@ -68,6 +68,7 @@ ul {
 a {
     text-decoration: none;
     cursor: pointer;
+        color: inherit;
 }
 
 .speaker-name {
@@ -282,7 +283,7 @@ a {
     width: 110%;
     transform: scaleX(0);
     height: 3px;
-    bottom: 48%;
+    bottom: 45%;
     left: -5%;
     background-color: #FD4256;
     transform-origin: bottom right;
@@ -1060,6 +1061,10 @@ h3 {
 
 .footer-social-icons {
     letter-spacing: 8px;
+}
+
+.brand-magazine {
+    padding-top: 2px !important;
 }
 
 .resize-logos {
