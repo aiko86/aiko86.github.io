@@ -606,6 +606,16 @@ h3 {
 .logo-wrapper {
     padding: 8px 0px 0px 0px;
     cursor: pointer;
+    position: relative;
+}
+
+.logo-wrapper:after {
+    content: "";
+    position: absolute;
+    background-image: url(assets/5.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .header-row {
