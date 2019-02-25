@@ -23,6 +23,101 @@ body {
     box-sizing: border-box;
 }
 
+body:before {
+content: "";
+    width: 140px;
+    background-image: url(assets/logos/onbrand-blue.svg);
+    left: 45%;
+    position: fixed;
+    top: 50%;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    animation: logoloader 1s ease-in-out forwards;
+
+    
+}
+
+@keyframes logoloader {
+    
+    0% {
+        visibility:visible;
+                transform: scale(1);
+
+
+    }
+    
+    50% {
+                transform: scale(1.2);
+
+    }
+    
+    100% {
+        visibility: hidden;
+                        transform: scale(1);
+
+    }
+
+}
+
+body:after {
+    content: "";
+    width: 100%;
+    background-color: #0846FF;
+    height: 100vh;
+    position: fixed;
+    transform: translateX(-100%);
+    left: 0;
+    top: 0;
+    z-index: 99;
+         animation: pagetransition 1.6s ease-in-out forwards;
+
+}
+
+
+main {
+    visibility: hidden;
+             animation: contentshow 0s ease-in-out forwards 1s;
+
+}
+
+@keyframes pagetransition {
+    
+    0% {
+        transform: translateX(-100%);
+
+
+    }
+    
+    50% {
+       transform: translateX(0%);
+
+
+    }
+
+    100% {
+    transform: translateX(-100%);
+
+
+    }
+
+}
+
+@keyframes contentshow {
+    
+    0% {
+        visibility:hidden;
+
+
+    }
+    
+    100% {
+        visibility: visible;
+    }
+
+}
+
+
 .fab {
     font-size: 21px;
 }
