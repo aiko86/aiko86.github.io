@@ -42,19 +42,13 @@ content: "";
     
     0% {
         visibility:visible;
-                transform: scale(1);
 
 
     }
     
-    50% {
-                transform: scale(1.2);
-
-    }
     
     100% {
         visibility: hidden;
-                        transform: scale(1);
 
     }
 
@@ -70,7 +64,7 @@ body:after {
     left: 0;
     top: 0;
     z-index: 99;
-         animation: pagetransition 1.6s ease-in-out forwards;
+         animation: pagetransition 1.5s ease-in-out forwards;
 
 }
 
