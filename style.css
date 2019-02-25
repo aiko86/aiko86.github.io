@@ -28,7 +28,7 @@ body {
 }
 
 .text-padding-around {
-    padding: 0px 164px 0px 164px;
+    padding: 0 164px;
 }
 
 .smaller-text {
@@ -56,7 +56,6 @@ body {
     font-size: 26px;
     line-height: 33px;
     color: #44444E;
-    padding-top: 32px;
     padding-bottom: 32px;
 }
 
@@ -573,7 +572,7 @@ h3 {
 }
 
 .button-row {
-    padding-top: 48px;
+    padding-top: 36px;
 }
 
 .transparent-button-row {
@@ -622,7 +621,7 @@ h3 {
 .header-row {
     display: flex;
     align-items: center;
-    padding: 16px 30px;
+    padding: 16px;
 }
 
 
@@ -860,7 +859,7 @@ h3 {
 }
 
 .big-padding-space {
-    padding: 96px 0px 96px 0px;
+    padding: 64px 0;
 }
 
 .small-padding-space {
@@ -997,7 +996,8 @@ h3 {
 }
 
 .form-container {
-    padding: 40px 80px 0px;
+    padding: 80px;
+    max-width:750px;
 }
 
 .columns-full-height {
@@ -1012,7 +1012,7 @@ h3 {
 }
 
 .partnership-button {
-    padding-bottom: 90px;
+    padding: 72px 0 96px 0;
 }
 
 .footer-divider {
@@ -1067,9 +1067,8 @@ h3 {
     padding-top: 2px !important;
 }
 
-.resize-logos {
-    padding: 16px;
-    text-align: center;
+.margin-logo{
+    margin:20px 0;
 }
 
 
@@ -1083,12 +1082,19 @@ h3 {
     .hero {
         padding-top: 32%;
     }
+    .form-container {
+        padding:36px;
+    }
+    .text-padding-around {
+    padding: 0 44px;
 }
-
-.form-container {
-    padding: 40px 15px;
+    .background-image {
+        height:70vh;
+    }
+    .home-speaker-title {
+        padding: 128px 8px;
+    }
 }
-
 /* tablet*/
 
 
@@ -1147,17 +1153,24 @@ h3 {
 
     }
 
-    .logos-vertical-align {
-        flex-direction: column;
-        padding: 16px 0px 16px 0px;
-    }
-
     .columns-full-height {
         min-height: 50%;
     }
 
     .form-container {
-        padding: 0px 32px 0px 32px;
+        padding: 64px;
+    }
+    .big-padding-space {
+    padding: 24px 0 0 0;
+}
+    .quote{
+        padding:24px 80px;
+    }
+    .quote-name {
+        padding-bottom: 24px;
+    }
+    .button-row {
+        padding: 24px 0 40px 0;
     }
 
 }
@@ -1282,7 +1295,7 @@ h3 {
     }
 
     .big-padding-space {
-        padding: 32px 0px 32px 0px;
+        padding: 32px 0 0 0;
 
     }
 
@@ -1301,6 +1314,7 @@ h3 {
 
     .row-footer-flex {
         flex-direction: column;
+        padding-left:16px;
     }
 
     .form-title {
@@ -1309,11 +1323,14 @@ h3 {
     }
 
     .form-container {
-        padding: 0px 0px 0px 0px;
+        padding:0;
     }
 
     .form-title {
         font-size: 19px;
     }
+    .video-section {
+    height: 105vh;
+}
 
 }
