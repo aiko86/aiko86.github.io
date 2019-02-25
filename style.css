@@ -72,7 +72,7 @@ body:after {
 main {
     width: 100%;
     visibility: hidden;
-             animation: contentshow 0s ease-in-out forwards 1s;
+             animation: contentshow 0s ease-in-out forwards 0.8s;
 
 }
 
