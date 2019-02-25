@@ -23,96 +23,6 @@ body {
     box-sizing: border-box;
 }
 
-body:before {
-content: "";
-    width: 140px;
-    background-image: url(assets/logos/onbrand-blue.svg);
-    left: 45%;
-    position: fixed;
-    top: 50%;
-    height: 80px;
-    background-repeat: no-repeat;
-    background-size: inherit;
-    animation: logoloader 1s ease-in-out forwards;
-
-    
-}
-
-@keyframes logoloader {
-    
-    0% {
-        visibility:visible;
-
-
-    }
-    
-    
-    100% {
-        visibility: hidden;
-
-    }
-
-}
-
-body:after {
-    content: "";
-    width: 100vw;
-    background-color: #0846FF;
-    height: 100vh;
-    position: fixed;
-    transform: translateX(-100%);
-    left: 0;
-    top: 0;
-    z-index: 99;
-         animation: pagetransition 1.5s ease-in-out forwards;
-
-}
-
-
-main {
-    width: 100%;
-    visibility: hidden;
-             animation: contentshow 0s ease-in-out forwards 0.8s;
-
-}
-
-@keyframes pagetransition {
-    
-    0% {
-        transform: translateX(-100%);
-
-
-    }
-    
-    50% {
-       transform: translateX(0%);
-
-
-    }
-
-    100% {
-    transform: translateX(-100%);
-
-
-    }
-
-}
-
-@keyframes contentshow {
-    
-    0% {
-        visibility:hidden;
-
-
-    }
-    
-    100% {
-        visibility: visible;
-    }
-
-}
-
-
 .fab {
     font-size: 21px;
 }
@@ -481,6 +391,7 @@ h3 {
     font-style: italic;
     text-align: center;
     line-height: 1.6;
+    padding:64px 0 24px 0;
 
 }
 
