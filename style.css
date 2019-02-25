@@ -468,6 +468,7 @@ h3 {
     align-items: center;
     justify-content: space-between;
     width: 440px;
+        margin-left: -16px;
 }
 
 
@@ -659,6 +660,7 @@ h3 {
 .hero {
     height: 70%;
     padding-top: 12%;
+    margin-bottom: 48px;
 }
 
 .button-row {
@@ -667,6 +669,7 @@ h3 {
 
 .transparent-button-row {
     padding-top: 40px;
+    padding-left: 8px;
 }
 
 
@@ -1262,6 +1265,11 @@ h3 {
     .button-row {
         padding: 24px 0 40px 0;
     }
+    
+    .location-text 
+    {
+        display: none;
+    }
 
 }
 
@@ -1272,6 +1280,10 @@ h3 {
         font-size: 33px;
     }
 
+    body:before {
+        left: 30%;
+    }
+    
     h2,
     .big-title {
         font-size: 21px;
@@ -1304,7 +1316,7 @@ h3 {
     }
 
     .background-image {
-        height: 70vh;
+       height: 80vh;
         background-position: 80% 100%;
     }
 
@@ -1346,11 +1358,7 @@ h3 {
         padding-top: 16px;
     }
 
-    .location-text {
-        flex-direction: column;
-        height: 33px;
-        align-items: flex-start;
-    }
+
 
     .scroll-wrapper {
         display: none;
