@@ -393,6 +393,11 @@ a {
     transition: transform 0.5s ease;
 }
 
+.active-stage {
+   color: #FD4256;
+    font-weight: 700;
+}
+
 /* headings styles */
 
 
@@ -462,7 +467,8 @@ h3 {
 }
 
 .nav-item {
-    padding: 12px;
+    position: relative;
+    padding: 12px !important;
 }
 
 .location-text {
