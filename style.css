@@ -151,7 +151,6 @@ main {
 
 ul {
     padding: 0;
-    margin-top: 62px;
 }
 
 a {
@@ -490,7 +489,6 @@ h3 {
     font-size: 24px;
     color: #44444E;
     line-height: 36px;
-    font-weight: 500i;
     text-align: center;
     line-height: 1.6;
     padding: 64px 0 24px 0;
@@ -1182,8 +1180,14 @@ h3 {
     letter-spacing: 0;
 }
 
+.sub-footer-font li {
+    float: left;
+    padding: 0 12px !important;
+}
+
 .footer-social-icons {
     letter-spacing: 8px;
+        padding: 12px 0 0 12px;
 }
 
 .brand-magazine {
@@ -1191,9 +1195,16 @@ h3 {
 }
 
 .margin-logo {
-    margin: 20px 0;
+    margin: 80px 0;
 }
 
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    padding: 8px 0;
+}
 
 
 /* mediaqueries start here */
