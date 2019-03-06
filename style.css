@@ -1188,6 +1188,7 @@ h3 {
 .footer-social-icons {
     letter-spacing: 8px;
         padding: 12px 0 0 12px;
+    font-weight: normal;
 }
 
 .brand-magazine {
