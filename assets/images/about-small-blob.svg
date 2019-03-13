@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Mask Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="53.9466026%" y1="120.556946%" x2="39.6360566%" y2="-20.8339589%" id="linearGradient-1">
+            <stop stop-color="#FD4256" offset="0%"></stop>
+            <stop stop-color="#0847FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-page" transform="translate(-402.000000, -273.000000)" fill="url(#linearGradient-1)">
+            <path d="M481.623373,336.602989 C509.844349,294.068262 455.196114,261.050211 425.702049,276.287971 C409.7751,284.32081 399.154286,302.092965 403.168162,326.994513 C407.182038,351.896061 453.402397,379.137716 481.623373,336.602989 Z" id="Mask-Copy" transform="translate(445.898512, 315.666433) rotate(-24.000000) translate(-445.898512, -315.666433) "></path>
+        </g>
+    </g>
+</svg>

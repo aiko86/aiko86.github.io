@@ -1,0 +1,80 @@
+h1 {
+    color: #22278F;
+    font-size: 34px;
+    line-height: 1.5;
+}
+
+
+.about-background-blob {
+  position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1.1);
+    pointer-events: none;
+    
+}
+
+.about-small-blob {
+  position: absolute;
+    top: 200px;
+    left:440px;
+    animation: smallheroblob 6s infinite ease;
+    transform-origin: 100% 100%;
+    pointer-events: none;
+    
+}
+
+.mouse-line {
+    background: #22278F;
+}
+
+.scroll {
+    color: #22278F;
+}
+
+
+.scroll-wrapper-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes smallheroblob {
+    
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    50% {
+        transform: rotate(-90deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+    
+}
+
+@media (max-width: 768px) {
+    
+    .about-small-blob {
+        display: none;
+    }
+    
+    .about-background-blob {
+        opacity: 0.3;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    
+    .about-background-blob {
+        display: none;
+    }
+    
+    .about-bynder img {
+        display: none;
+    }
+}
