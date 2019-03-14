@@ -1,0 +1,102 @@
+.card {
+    cursor: pointer;
+    background: #ffffff;
+    padding: 0;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.06);
+    width: 300px;
+    height: 450px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+    margin: 48px;
+
+
+}
+
+.card:hover {
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+
+}
+
+.card-first-part {
+    background: #8686C5;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.blog-category-font {
+ font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 2.2;
+    text-align: center;
+}
+
+.parts {
+    height: 50%;
+    position: relative;
+}
+
+.blog-insights {
+   background: rgba(253, 66, 86, 0.80);
+    border-radius: 14.5px;
+    width: 137px;
+    height: 29px;
+    position: absolute;
+    bottom: 6%;
+    left: 6%;
+
+}
+
+.blog-stories {
+    background: #0847FF;
+    border-radius: 14.5px;
+    width: 137px;
+    height: 29px;
+    position: absolute;
+    bottom: 6%;
+    left: 6%;
+}
+
+.blog-announcements {
+    background: #22278F;
+    border-radius: 14.5px;
+    width: 137px;
+    height: 29px;
+    position: absolute;
+    bottom: 6%;
+    left: 6%;
+}
+
+.card-second-part {
+    background: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+
+}
+
+.card-second-part:before {
+    content: "";
+    position: absolute;
+    background: #174ff9;
+    background: linear-gradient(320deg, #FD4256 0%, #0846FF 100%);
+    -webkit-background: linear-gradient(320deg, #FD4256 0%, #0846FF 100%);
+    -ms-background: linear-gradient(320deg, #FD4256 0%, #0846FF 100%);
+    -moz-background: linear-gradient(320deg, #FD4256 0%, #0846FF 100%);
+    width: 100%;
+    height: 2%;
+    top: 100%;
+    left: 0;
+    transition: all 0.3s ease;
+
+}
+
+.card:hover .card-second-part:before {
+    top: 98%;
+    transition: all 0.3s ease;
+}
