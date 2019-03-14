@@ -6,22 +6,33 @@ h1 {
 
 
 .about-background-blob {
-  position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+
     pointer-events: none;
-    
+
 }
 
 .about-small-blob {
-  position: absolute;
+    position: absolute;
     top: 200px;
-    left:440px;
+    left: 440px;
     animation: smallheroblob 6s infinite ease;
+    -webkit-animation: smallheroblob 6s infinite ease;
+    -ms-animation: smallheroblob 6s infinite ease;
+    -moz-animation: smallheroblob 6s infinite ease;
     transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+
     pointer-events: none;
-    
+
 }
 
 .mouse-line {
@@ -41,39 +52,49 @@ h1 {
 }
 
 @keyframes smallheroblob {
-    
+
     0% {
         transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+
     }
-    
+
     50% {
         transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
     }
-    
+
     100% {
         transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
     }
-    
+
 }
 
 @media (max-width: 768px) {
-    
+
     .about-small-blob {
         display: none;
     }
-    
+
     .about-background-blob {
         opacity: 0.3;
     }
 }
 
 @media (max-width: 500px) {
-    
-    
+
+
     .about-background-blob {
         display: none;
     }
-    
+
     .about-bynder img {
         display: none;
     }
