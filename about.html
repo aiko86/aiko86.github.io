@@ -33,40 +33,21 @@
     <title>Europe's leading branding conference - OnBrand '19</title>
     <style>
 
-        .red-blob{
-	background-image: url(https://dev.onbrand.me/assets/images/red-blob.svg) !important;
-}
-.moving-blob{
-	background-image: url(https://dev.onbrand.me/assets/images/moving-blob.svg) !important;
-}
-.video-col{
-	background-image: url(https://dev.onbrand.me/assets/images/video-placeholder-rsz.jpg) !important;
-}
-
-.home-speaker-title{
-	align-self:center;
-}
-.home-speaker-box{
-	display: flex;
-}
-
-
-
-a.transparent-button{ width:165px !important; }
-.location-text{
-	width:440px !important;
-}
-
-
-@media (max-width: 768px) {
-
-.columns-full-height {
-    min-height: 50% !important;
-}
-.header-small-blue-button {
-    margin-top: 0;
-}
-}
+        .home-speaker-box{ height:376px; }
+	body:before{ background-image: url(https://dev.onbrand.me/assets/logos/onbrand-blue.svg); }
+	a.header-small-blue-button{ width:124px !important; }
+	.footer-navigation-main-block{ margin-top: 0px; margin-bottom: 34px !important; }
+	.footer-list.sub-footer-font{ padding-top:32px; }
+	.navigation-footer-font.footer-list li{ padding:16px 0px; }
+	@media only screen and (max-width: 500px) {
+	  .navigation-footer-font {
+		padding:0px;
+		margin:0px;
+	  }
+	}
+	.custom_header{display:block;}
+	.custom_header a.header-small-blue-button{float:right;}
+	
     </style>
     <link href="/grid.css" rel="stylesheet">
     <link href="/about.css" rel="stylesheet">
@@ -133,7 +114,7 @@ a.transparent-button{ width:165px !important; }
         </div>
     </div>
     <main>
-        <div class="container-fluid" style="padding-top: 13%; padding-bottom: 13%";>
+        <div class="container-fluid" style="padding-top: 13%; padding-bottom: 13%" ;>
 
             <section>
                 <div class="about-background-blob">
@@ -148,7 +129,7 @@ a.transparent-button{ width:165px !important; }
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-offset-6 col-md-offset-6 col-sm-offset-0 col-lg-4 col-md-6 col-sm-12 col-xs-12" style="font-size: 18px; line-height: 1.8";>
+                    <div class="col-lg-offset-6 col-md-offset-6 col-sm-offset-0 col-lg-4 col-md-6 col-sm-12 col-xs-12" style="font-size: 18px; line-height: 1.8" ;>
                         OnBrand started with a simple idea: let's bring marketing, creative, and tech professionals together to discuss the trends set to shape the future of branding. Five years on, we’ve grown to become Europe’s leading branding conference.<br><br>
                         Helping organizations manage and grow their brand is the bread and butter of Bynder. And we aim to practice what we preach by providing a future-proof digital asset management service with the trends of tomorrow at the heart of our business.
                     </div>
@@ -174,7 +155,7 @@ a.transparent-button{ width:165px !important; }
                 <div class="row">
                     <div class="text-align-left col-lg-offset-2 col-md-offset-2 col-sm-offset-0 col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <h2 class="onbrand-dark-blue">About Bynder</h2>
-                        <p style="font-size:18px; line-height: 1.8";>Bynder empowers some of the world’s most iconic brands with a digital asset management (DAM) service that simplifies the management of digital content and brand operations via one central hub.</p>
+                        <p style="font-size:18px; line-height: 1.8" ;>Bynder empowers some of the world’s most iconic brands with a digital asset management (DAM) service that simplifies the management of digital content and brand operations via one central hub.</p>
                         <div>
                             <a href="https://www.bynder.com/en/" target="_blank" rel="nofollow" class="buttons blue-big-button col-md-2 col-sm-2 col-xs-2" style="width:194px; margin-top: 16px;">
                                 Learn more
@@ -191,36 +172,38 @@ a.transparent-button{ width:165px !important; }
 
             </section>
         </div>
-
+<style>
+	.navigation-footer-font.footer-list li{ padding:8px 0px !important; }
+	</style>
         <div class="container background-white">
             <div class="footer-divider"></div>
             <div class="row ">
-                <div class="col-md-12 col-sm-12 col-xs-12" style="padding-top: 40px; padding-left: 24px" ;>
+                <div class="col-md-12 col-sm-12 col-xs-12" style="padding-top: 40px; padding-left: 24px" ;="">
                     <img src="assets/logos/byndergrey.svg">
                 </div>
             </div>
 
-            <div class="row footer-navigation-main-block">
+            <div class="row">
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <ul class="navigation-footer-font footer-list">
-                        <li class="navigation-item"><a href="/cdn-cgi/l/email-protection#6616071412080314150e0f16152609080414070802480b03" class="nav-item"><span class="link-underline">Become a Partner</span></a></li>
-                        <li class="navigation-item"><a href="/cdn-cgi/l/email-protection#ec82858f83808d9fac8e958288899ec28f8381" class="nav-item"><span class="link-underline">Speak at OnBrand</span></a></li>
-                        <li class="navigation-item"><a href="/cdn-cgi/l/email-protection#11787f777e517e7f7363707f753f7c74" class="nav-item"><span class="link-underline">Apply as press</span></a></li>
+                    <ul class="navigation-footer-font footer-list" style="margin-top:16px;">
+                        <li class="navigation-item"><a href="mailto:partnerships@onbrand.me" class="nav-item"><span class="link-underline">Become a Partner</span></a></li>
+                        <li class="navigation-item"><a href="mailto:nicolas@bynder.com" class="nav-item"><span class="link-underline">Speak at OnBrand</span></a></li>
+                        <li class="navigation-item"><a href="mailto:info@onbrand.me" class="nav-item"><span class="link-underline">Apply as press</span></a></li>
                         <li class="navigation-item"><a href="#" class="nav-item"><span class="link-underline">Brand Magazine</span></a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <ul class="navigation-footer-font footer-list">
+                    <ul class="navigation-footer-font footer-list" style="margin-top:16px;">
                         <li class="navigation-item"><a href="https://www.bynder.com/en/" target="_blank" rel="nofollow" class="nav-item"><span class="link-underline">OnBrand is powered by Bynder</span></a></li>
                         <li class="navigation-item"><a href="https://www.bynder.com/en/about-us/" target="_blank" rel="nofollow" class="nav-item"><span class="link-underline">About Bynder</span></a></li>
-                        <li class="navigation-item"><a href="/cdn-cgi/l/email-protection#fb92959d94bb949599899a959fd5969e" class="nav-item"><span class="link-underline">Contact</span></a></li>
+                        <li class="navigation-item"><a href="mailto:info@onbrand.me" class="nav-item"><span class="link-underline">Contact</span></a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12" style="margin-top:16px;">
                     <ul class="navigation-footer-font footer-list">
-                        <li class="navigation-item"><a href="/cdn-cgi/l/email-protection#ddb4b3bbb29db2b3bfafbcb3b9f3b0b8" class="nav-item onbrand-red"><span class="link-underline"><span class="__cf_email__" data-cfemail="a0c9cec6cfe0cfcec2d2c1cec48ecdc5">[email&#160;protected]</span></span></a></li>
+                        <li class="navigation-item"><a href="mailto:info@onbrand.me" class="nav-item onbrand-red"><span class="link-underline">info@onbrand.me</span></a></li>
                         <li class="navigation-item">
-                            <a href="https://www.meetup.com/OnBrand-Marketing-Community/" class="nav-item"><span class="link-underline">OnBrand Meetup</span></a>
+                            <div class="nav-item"><span>OnBrand Meetup</span></div>
                         </li>
                         <li class="navigation-item">
                             <div class="footer-social-icons">
@@ -233,11 +216,11 @@ a.transparent-button{ width:165px !important; }
                     </ul>
                 </div>
             </div>
-            <section class="sub-footer" style="padding-bottom: 48px" ;>
+            <section class="sub-footer" style="padding-bottom: 48px" ;="">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <ul class="footer-list sub-footer-font">
-                            <li class="col-md-4">Copyright 2019 Bynder All rights reserved.</li>
+                        <ul class="footer-list sub-footer-font" style="margin-top:14px; margin-bottom:14px; padding-top: 0px;">
+                            <li>Copyright 2019 Bynder All rights reserved.</li>
                             <li><a href="https://www.bynder.com/en/legal/terms-of-service-bynder-bv/" target="_blank"><span class="text-align-left onbrand-dark-blue link-underline">| &nbsp; Terms &amp; Conditions</span></a></li>
                             <li><a href="https://www.bynder.com/en/legal/privacy-policy/" target="_blank"><span class="text-align-left onbrand-dark-blue link-underline">| &nbsp; Privacy</span></a></li>
                         </ul>
