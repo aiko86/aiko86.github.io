@@ -1,3 +1,13 @@
+ul {
+    list-style-type: none;
+}
+
+.blog-row {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .card {
     cursor: pointer;
     background: #ffffff;
@@ -7,8 +17,6 @@
     height: 450px;
     border-radius: 7px;
     transition: all 0.3s ease;
-    margin:50px;
-
 
 }
 
@@ -99,4 +107,24 @@
 .card:hover .card-second-part:before {
     top: 98%;
     transition: all 0.3s ease;
+}
+
+
+
+@media (max-width: 1000px) {
+
+
+    .card {
+    margin: 16px;
+    }
+    
+}
+
+@media (max-width: 678px) {
+
+
+.blog-row {
+    flex-direction: column;
+    align-items: center;
+}
 }
