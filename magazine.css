@@ -109,6 +109,14 @@ ul {
     transition: all 0.3s ease;
 }
 
+.article-data {
+   font-size: 14px;
+    color: #A0A0A9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
 
 
 @media (max-width: 1000px) {
