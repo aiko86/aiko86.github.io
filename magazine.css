@@ -8,6 +8,16 @@ ul {
     justify-content: space-between;
 }
 
+.blog-navigation {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #44444E;
+    letter-spacing: 0;
+    padding: 16px;
+    padding-left: 0;
+}
+
 .card {
     cursor: pointer;
     background: #ffffff;
