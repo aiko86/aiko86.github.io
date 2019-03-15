@@ -50,6 +50,7 @@ ul {
     letter-spacing: 0;
     line-height: 2.2;
     text-align: center;
+    cursor: pointer;
 }
 
 .parts {
@@ -66,6 +67,14 @@ ul {
     bottom: 6%;
     left: 6%;
 
+}
+
+.blog-articles{
+
+background: rgba(253, 66, 86, 0.80);
+    border-radius: 14.5px;
+    width: 137px;
+    height: 29px;
 }
 
 .blog-stories {
