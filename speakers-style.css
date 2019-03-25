@@ -743,7 +743,7 @@ h3 {
 }
 
 .speaker-photo-container {
-    background-image: url(assets/speaker-page/david.svg);
+    background-image: url(https://dev.onbrand.me/images/author/Invision.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -883,9 +883,6 @@ position: absolute;
         display: none;
     }
 
-    .white-right-col {
-        height: 80vh;
-    }
 }
 
 /* Mobile */
