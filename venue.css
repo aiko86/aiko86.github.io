@@ -9,11 +9,39 @@
      padding: 0 !important;
 }
 
+.venue-gallery img {
+    width: 100vw;
+}
+
+.venue-map {
+        position: relative;
+}
+
 .venue-map img {
         width: 75%;
     padding-bottom: 80px;
 }
 
-.venue-gallery img {
-    width: 100vw;
+.pinpoint {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border-radius: 50px;
+    animation: pulse 3s infinite;
+  -webkit-animation:: pulse 3s infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0px 0px 0px 4px rgba(357, 78, 92, 0.5);
+  }
+   50% {
+    box-shadow: 0px 0px 0px 16px rgba(357, 78, 92, 0.5);
+  }
+    100% {
+    box-shadow: 0px 0px 0px 4px rgba(357, 78, 92, 0.5);
+  }
 }
