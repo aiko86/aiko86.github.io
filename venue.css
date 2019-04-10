@@ -1,0 +1,14 @@
+.venue-hero {
+    background-image: url(assets/images/venue-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.venue-gallery {
+     padding: 0;
+}
+
+.venue-gallery img {
+    width: 100vw;
+}
