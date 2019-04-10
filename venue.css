@@ -9,6 +9,11 @@
      padding: 0 !important;
 }
 
+.venue-map img {
+        width: 75%;
+    padding-bottom: 80px;
+}
+
 .venue-gallery img {
     width: 100vw;
 }
