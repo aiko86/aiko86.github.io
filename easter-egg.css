@@ -1,22 +1,44 @@
-.venue-hero {
-    background-image: url(assets/images/venue-hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.easter-egg-banner {
+      font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(9,71,255,0.9);
+    position: fixed;
+    bottom: -10%;
+    width: 100%;
+    z-index: 99;
+   height: 90px;
+padding: 8px 16px 0px 16px;
+    animation: appear 1s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1.4s;
+
 }
 
-.venue-gallery {
-     padding: 0 !important;
+.easter-egg-close {
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 8px;
 }
 
-.venue-gallery img {
-    width: 100vw;
+@keyframes appear {
+
+
+    100% {
+        bottom: 0;
+
+
+    }
+
 }
 
-.venue-map img {
-        width: 75%;
-}
+/* Mobile */
+@media (max-width: 600px) {
+    .easter-egg-banner {
+           height: 150px;
+        font-size: 15px;
 
-.directions-button {
-padding: 72px 0 42px 0;
+    }
 }
