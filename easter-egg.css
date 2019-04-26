@@ -8,7 +8,7 @@
     position: fixed;
     bottom: -10%;
     width: 100%;
-    z-index: 99;
+    z-index: 2;
    height: 90px;
 padding: 8px 16px 0px 16px;
     animation: appear 1s ease;
