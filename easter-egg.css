@@ -88,7 +88,7 @@ content: "";
 /* mobile */
 @media (max-width: 600px) {
     .easter-egg-banner {
-        padding: 8px 32px 8px 32px;
+        padding: 8px 16px 8px 16px;
         height: 120px;
 
     }
