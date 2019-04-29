@@ -1,26 +1,28 @@
 .easter-egg-banner {
       font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     color: white;
     background-color: rgba(9,71,255,0.9);
     position: fixed;
-    bottom: -10%;
+    bottom: -20%;
     width: 100%;
     z-index: 2;
-   height: 90px;
-padding: 8px 16px 0px 16px;
+   height: 45px;
+padding: 8px 24px 8px 24px;
     animation: appear 1s ease;
     animation-fill-mode: forwards;
-    animation-delay: 1.4s;
+    animation-delay: 1.5s;
 
 }
 
 .easter-egg-close {
     font-size: 22px;
     cursor: pointer;
-    margin-top: 8px;
+    position: absolute;
+    right: 2%;
+    top: 8%;
 }
 
 @keyframes appear {
@@ -34,11 +36,10 @@ padding: 8px 16px 0px 16px;
 
 }
 
-/* Mobile */
-@media (max-width: 600px) {
+/* tablet */
+@media (max-width: 1200px) {
     .easter-egg-banner {
-           height: 150px;
-        font-size: 15px;
+           height: 90px;
 
     }
 }
