@@ -18,18 +18,18 @@ background: linear-gradient(135deg, rgba(18,57,207,1) 0%, rgba(8,71,255,1) 59%);
 }
 
 /* smaller screen */
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
     .new-header-img {
-        width: 700px;
-    height: 80vh;
+        width: 750px;
+    height: 90vh;
 
     }
 }
 
 /* tablet */
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
     .new-header-img {
-        width: 600px;
+        width: 550px;
     height: 70vh;
 
     }
