@@ -1,0 +1,45 @@
+.background-gradient-blue {
+    background: rgb(18,57,207);
+background: -moz-linear-gradient(135deg, rgba(18,57,207,1) 0%, rgba(8,71,255,1) 59%);
+background: -webkit-linear-gradient(135deg, rgba(18,57,207,1) 0%, rgba(8,71,255,1) 59%);
+background: linear-gradient(135deg, rgba(18,57,207,1) 0%, rgba(8,71,255,1) 59%);
+    background-repeat: no-repeat;
+}
+
+.new-header-img {
+   background-image: url(assets/new-header/hero-full.png);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    width: 880px;
+    height: 90vh;
+    background-repeat: no-repeat;
+    bottom: 0;
+}
+
+/* smaller screen */
+@media (max-width: 1400px) {
+    .new-header-img {
+        width: 700px;
+    height: 80vh;
+
+    }
+}
+
+/* tablet */
+@media (max-width: 1000px) {
+    .new-header-img {
+        width: 600px;
+    height: 70vh;
+
+    }
+}
+
+/* mobile */
+@media (max-width: 700px) {
+    .new-header-img {
+        width: 500px;
+    height: 60vh;
+
+    }
+}
