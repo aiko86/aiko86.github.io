@@ -39,7 +39,6 @@ background: linear-gradient(135deg, rgba(18,57,207,1) 0%, rgba(8,71,255,1) 59%);
 @media (max-width: 700px) {
     .new-header-img {
         width: 500px;
-    height: 60vh;
 
     }
 }
