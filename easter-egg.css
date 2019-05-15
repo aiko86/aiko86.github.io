@@ -7,14 +7,24 @@
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: rgba(68, 68, 78, 0.2) 1px 1px 20px;
     position: fixed;
-    bottom: -20%;
+    bottom: 0;
     width: 100%;
     z-index: 2;
-    height: 90px;
-    padding: 24px 40px 8px 40px;
+    height: 85px;
+    padding: 24px 40px 24px 40px;
     animation: appear 1s ease;
+    -ms-animation: appear 1s ease;
+    -webkit-animation: appear 1s ease;
+    -moz-animation: appear 1s ease;
     animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
     animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    -ms-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+
 
 }
 
@@ -38,6 +48,44 @@
     }
 
 }
+
+@-webkit-keyframes appear {
+
+
+    100% {
+        bottom: 0;
+
+
+    }
+
+}
+
+@-moz-keyframes appear {
+
+
+    100% {
+        bottom: 0;
+
+
+    }
+
+}
+
+}
+
+@-ms-keyframes appear {
+
+
+    100% {
+        bottom: 0;
+
+
+    }
+
+}
+
+}
+
 
 .tooltip {
     position: relative;
@@ -85,7 +133,7 @@ content: "";
 /* tablet */
 @media (max-width: 1200px) {
     .easter-egg-banner {
-        height: 120px;
+        height: 105px;
     
 
     }
@@ -100,7 +148,7 @@ content: "";
     .easter-egg-banner {
         padding: 24px 40px 40px 40px;
         font-size: 14px;
-        height: 160px;
+        height: 150px;
 
     }
     
