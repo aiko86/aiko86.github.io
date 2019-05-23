@@ -22,13 +22,11 @@ easterEggBanner.style.display = "none";
 
 jQuery(document).ready(function( $ ) {
 
-  /* Close Popup and set session variable */
 	$('.easter-egg-close').click( function(){
 		$('.easter-egg-banner').fadeOut(300);
 		sessionStorage.setItem('closedOnce', '1');
 	});
 	
-  /* Hide Popup if They've already closed it once */
 	if (sessionStorage.getItem('closedOnce') === "1")  {
        $('.easter-egg-banner').hide(); 
     }
