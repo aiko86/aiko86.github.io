@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .gradient-bar {
     height: 10px;
     height: 12px;
@@ -115,8 +119,7 @@ opacity: 0.2;
   padding: 15px;
   border-radius: 4px;
 transform: translateY(50%);
-visibility: hidden;
-
+opacity: 0;
 }
 
 .poptop {
