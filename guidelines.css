@@ -91,9 +91,8 @@ h3 {
 }
 }
 
- @media (max-width: 768x){
+ @media (max-width: 768px){
 h1, h2 {
-    font-size: 42px;
-
+    font-size: 48px;
 }
 }
