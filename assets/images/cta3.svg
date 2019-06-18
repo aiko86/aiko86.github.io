@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="213px" viewBox="0 0 196 213" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <g id="the-brand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OnBrand-brand-guidelines-Copy" transform="translate(-993.000000, -5352.000000)">
+            <g id="Group-18" transform="translate(993.000000, 5352.000000)">
+                <g id="Group-14" transform="translate(20.000000, 19.000000)">
+                    <text id="Text-CTA" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" letter-spacing="-0.0666666667" fill="#44444E" fill-opacity="0.5">
+                        <tspan x="45.2266667" y="12">TEXT CTA</tspan>
+                    </text>
+                    <text id="This-is-a-text-link" font-family="Montserrat-Bold, Montserrat" font-size="18" font-weight="bold" letter-spacing="-0.1" fill="#0847FF">
+                        <tspan x="0" y="48">This is a text link</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-Copy-16" fill="#0847FF" x="0" y="122" width="196" height="91"></rect>
+                <g id="Group-15" transform="translate(20.000000, 141.000000)">
+                    <text id="Text-CTA-Copy" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" letter-spacing="-0.0666666667" fill="#FFFFFF">
+                        <tspan x="45.2266667" y="12">TEXT CTA</tspan>
+                    </text>
+                    <text id="This-is-a-text-link-Copy" font-family="Montserrat-Bold, Montserrat" font-size="18" font-weight="bold" letter-spacing="-0.1" fill="#F7EDF0" text-decoration="underline">
+                        <tspan x="0" y="48">This is a text link</tspan>
+                    </text>
+                </g>
+                <path d="M0,0 L196,0 L196,91 L0,91 L0,0 Z M1,1 L1,90 L195,90 L195,1 L1,1 Z" id="Rectangle" fill="#0847FF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

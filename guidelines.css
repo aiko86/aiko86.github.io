@@ -101,6 +101,92 @@ opacity: 0.2;
     width: 100%;
 }
 
+.backtotop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+transform: translateY(50%);
+visibility: hidden;
+
+}
+
+.poptop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+transform: translateY(50%);
+animation: backtotop 0.5s ease;
+    animation-fill-mode: forwards;
+opacity: 1;
+
+}
+
+.wegpop {
+    position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+transform: translateY(0%);
+animation: disappear 0.5s ease;
+    animation-fill-mode: forwards;
+
+}
+
+
+@keyframes backtotop {
+    
+    50% {
+        transform: translateY(-50%);
+opacity: 1;
+    }
+
+
+    100% {
+        transform: translateY(0%);
+opacity:1;
+    }
+}
+
+@keyframes disappear {
+    
+    50% {
+        transform: translateY(-50%);
+opacity: 1;
+    }
+
+
+    100% {
+        transform: translateY(0%);
+opacity: 0;
+    }
+}
+
 
 @media (max-width: 1440px){
 .side-navigation {

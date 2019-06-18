@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="301px" viewBox="0 0 460 301" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="the-brand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OnBrand-brand-guidelines" transform="translate(-250.000000, -4869.000000)">
+            <g id="Group-24" transform="translate(250.000000, 4869.000000)">
+                <rect id="Rectangle" stroke="#0847FF" fill="#FFFFFF" x="0.5" y="0.5" width="459" height="300"></rect>
+                <g id="Group-8" transform="translate(56.000000, 63.000000)">
+                    <text id="Medium" font-family="Montserrat-Medium, Montserrat" font-size="36" font-weight="400" letter-spacing="-0.415384615" fill="#44444E">
+                        <tspan x="0" y="35">Medium</tspan>
+                    </text>
+                    <text id="Header" font-family="PTSerif-Regular, PT Serif" font-size="14" font-weight="normal" letter-spacing="0.013461875" fill="#0847FF">
+                        <tspan x="2" y="62">HEADER</tspan>
+                    </text>
+                </g>
+                <g id="Group-9" transform="translate(295.000000, 63.000000)">
+                    <text id="Bold" font-family="Montserrat-Bold, Montserrat" font-size="36" font-weight="bold" letter-spacing="-0.415384615" fill="#44444E">
+                        <tspan x="0" y="35">Bold</tspan>
+                    </text>
+                    <text id="Header-Copy" font-family="PTSerif-Regular, PT Serif" font-size="14" font-weight="normal" letter-spacing="0.013461875" fill="#0847FF">
+                        <tspan x="2" y="62">HEADER</tspan>
+                    </text>
+                </g>
+                <g id="Group-6" transform="translate(56.000000, 183.000000)" font-weight="normal">
+                    <text id="Light" font-family="Helvetica" font-size="28" letter-spacing="-0.323076923" fill="#44444E">
+                        <tspan x="0" y="28">Light</tspan>
+                    </text>
+                    <text id="Subheader" font-family="PTSerif-Regular, PT Serif" font-size="14" letter-spacing="0.013461875" fill="#0847FF">
+                        <tspan x="0" y="52">SUBHEADER</tspan>
+                    </text>
+                </g>
+                <g id="Group-7" transform="translate(295.000000, 183.000000)" font-weight="normal">
+                    <text id="Regular" font-family="Montserrat-Regular, Montserrat" font-size="28" letter-spacing="-0.323076923" fill="#44444E">
+                        <tspan x="0" y="27">Regular</tspan>
+                    </text>
+                    <text id="Subheader" font-family="PTSerif-Regular, PT Serif" font-size="14" letter-spacing="0.013461875" fill="#0847FF">
+                        <tspan x="0" y="52">SUBHEADER</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
