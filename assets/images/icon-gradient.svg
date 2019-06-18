@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="-2.95052083%" x2="100%" y2="98.6417611%" id="linearGradient-1">
+            <stop stop-color="#FD4256" offset="0%"></stop>
+            <stop stop-color="#0B47FD" offset="100%"></stop>
+            <stop stop-color="#0847FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="the-brand" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OnBrand-brand-guidelines" transform="translate(-250.000000, -1741.000000)">
+            <g id="Group-4" transform="translate(250.000000, 1741.000000)">
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-1)" x="0" y="0" width="300" height="300"></rect>
+                <g id="Group-Copy-3" transform="translate(88.000000, 77.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M4.26325641e-14,58.4804348 C4.26325641e-14,23.8076087 27.0833333,-7.10542736e-15 62.0192308,-7.10542736e-15 C96.9551282,-7.10542736e-15 124.038462,23.8076087 124.038462,58.4804348 C124.038462,93.1532609 97.1153846,116.96087 62.0192308,116.96087 C26.9230769,116.96087 4.26325641e-14,93.3130435 4.26325641e-14,58.4804348 Z M89.2628205,58.4804348 C89.2628205,42.6619565 78.525641,30.198913 62.0192308,30.198913 C45.5128205,30.198913 34.775641,42.8217391 34.775641,58.4804348 C34.775641,74.1391304 45.5128205,86.7619565 62.0192308,86.7619565 C78.525641,86.7619565 89.2628205,74.298913 89.2628205,58.4804348 Z" id="Shape"></path>
+                    <rect id="Rectangle" x="7.53205128" y="126.068478" width="109.134615" height="20.4521739"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
