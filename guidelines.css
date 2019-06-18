@@ -96,11 +96,15 @@ opacity: 0.2;
     transition: all 0.5s ease;
 }
 
-@media (min-width: 1200px){
-.container {
-    width: 940px !important;
+.animated-gradient {
+    height: 450px;
+    width: 100%;
+    background: rgb(253,66,86);
+    background: -moz-linear-gradient(135deg, rgba(253,66,86,1) 0%, rgba(8,71,255,1) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(253,66,86,1) 0%, rgba(8,71,255,1) 100%);
+    background: linear-gradient(135deg, rgba(253,66,86,1) 0%, rgba(8,71,255,1) 100%);
 }
-}
+
 
 @media (max-width: 1440px){
 .side-navigation {
