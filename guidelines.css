@@ -1,5 +1,5 @@
 .gradient-bar {
-    height: 8px;
+    height: 10px;
     height: 12px;
     background: rgb(253,66,86);
     background: -moz-linear-gradient(135deg, rgba(253,66,86,1) 0%, rgba(8,71,255,1) 100%);
@@ -8,6 +8,8 @@
     position: fixed;
     top: 0;
     width: 100vw;
+    z-index: 1;
+    transition: all 0.3s ease;
 }
 .side-navigation {
     font-family: montserrat,sans-serif;
