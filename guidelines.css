@@ -108,7 +108,7 @@ opacity: 0.2;
 .backtotop {
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 1;
   cursor: pointer;
 transform: translateY(50%);
@@ -118,7 +118,7 @@ opacity: 0;
 .poptop {
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 1;
   cursor: pointer;
 transform: translateY(50%);
@@ -157,7 +157,7 @@ opacity: 1;
 .wegpop {
     position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 1;
   cursor: pointer;
 transform: translateY(0%);
