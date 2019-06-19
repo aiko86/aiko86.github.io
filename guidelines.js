@@ -7,9 +7,9 @@ window.addEventListener('scroll', barScroll);
 
 function barScroll() {
     if (window.pageYOffset > 20) {
-        gradientLine.style.height = "3px";
+        gradientLine.style.height = "4px";
     } else {
-        gradientLine.style.height = "10px";
+        gradientLine.style.height = "12px";
     }
 
 }
