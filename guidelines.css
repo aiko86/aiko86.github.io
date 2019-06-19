@@ -169,6 +169,10 @@ animation: disappear 0.5s ease;
 
 }
 
+.final-row {
+    padding-top: 140px;
+}
+
 
 @keyframes backtotop {
     
