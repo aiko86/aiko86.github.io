@@ -15,10 +15,17 @@ html {
     border-top-left-radius: 20px;
     border: 2px solid white;
     box-shadow: -6px -5px 17px 4px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
     transition: all 0.5s ease;
     transform: translateY(50%);
     opacity: 0;
+}
+
+.discount-text img {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    left: 45px;
+    top: 20px;
 }
 
 .discount-appear {
@@ -34,7 +41,6 @@ html {
     border-top-left-radius: 20px;
     border: 2px solid white;
     box-shadow: -6px -5px 17px 4px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
     transition: all 0.5s ease;
     transform: translateY(0);
     opacity: 1;
@@ -53,34 +59,53 @@ html {
     border-top-left-radius: 20px;
     border: 2px solid white;
     box-shadow: -6px -5px 17px 4px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
     transition: all 0.5s ease;
     transform: translateY(50%);
     opacity: 0;
 }
 
+.discount, .discount-appear, discount-disappear {
+    overflow: hidden;
+}
+
 .discount-close {
-    pointer-events: none;
     font-size: 24px;
     color: #FFFFFF;
     cursor: pointer;
     position: fixed;
-right: 0;
-    bottom: -1%;
+    left: 4%;
+    top: 0;
     padding: 4px;
     z-index: 99;
+    
+}
+
+.discount-button {
+    position: fixed;
+    left: 65px;
+    bottom: 25px;
 }
 
 @media (max-width: 750px) {
 
 
-    .discount {
+    .discount, .discount-appear, .discount-disappear {
         width: 210px;
         height: 210px;
     }
     
-    .discount-appear {
-        width: 210px;
-        height: 210px;
-    }
+    .discount-text img {
+    width: 160px;
+    height: 160px;
+    left: 25px;
+    top: 4px;
+}
+    
+    .discount-button {
+    position: fixed;
+        transform: scale(0.8);
+    left: 23px;
+    bottom: 6px;
+}
+    
 }

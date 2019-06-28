@@ -15,8 +15,8 @@ function triggerBanner() {
 
 jQuery(document).ready(function( $ ) {
 
-	$('.discount').click( function(){
-		$('.discount-appear').fadeOut(300);
+	$('.discount-button, .discount-close').click( function(){
+		$('.discount-appear').fadeOut(100);
 		sessionStorage.setItem('closedOnce', '1');
 	});
 	
