@@ -16,12 +16,12 @@ function triggerBanner() {
 jQuery(document).ready(function( $ ) {
 
 	$('.discount-button, .discount-close').click( function(){
-		$('.discount, .discount-appear').fadeOut(100);
+		$('.discount-appear, .discount').fadeOut(100);
 		sessionStorage.setItem('closedOnce', '1');
 	});
 	
 	if (sessionStorage.getItem('closedOnce') === "1")  {
-       $('.discount, .discount-appear').hide(); 
+       $('.discount-appear, .discount').hide(); 
     }
  
 });

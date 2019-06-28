@@ -29,13 +29,13 @@ html {
 .discount-text img {
     width: 200px;
     height: 200px;
-    position: absolute;
+    position:absolute;
     left: 45px;
     top: 20px;
 }
 
 .discount-appear {
-    width: 290px;
+      width: 290px;
     height: 290px;
     position: fixed;
     right: 0;
@@ -72,19 +72,14 @@ html {
     border: 2px solid white;
     box-shadow: -6px -5px 17px 4px rgba(0, 0, 0, 0.10);
     transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    transform: translateY(50%);
+      transform: translateY(50%);
     -webkit-transform: translateY(50%);
     -ms-transform: translateY(50%);
     -moz-transform: translateY(50%);
     opacity: 0;
 }
 
-.discount,
-.discount-appear,
-discount-disappear {
+.discount, .discount-appear, discount-disappear {
     overflow: hidden;
 }
 
@@ -97,7 +92,7 @@ discount-disappear {
     top: 0;
     padding: 4px;
     z-index: 99;
-
+    
 }
 
 .discount-button {
@@ -109,28 +104,26 @@ discount-disappear {
 @media (max-width: 750px) {
 
 
-    .discount,
-    .discount-appear,
-    .discount-disappear {
+    .discount, .discount-appear, .discount-disappear {
         width: 210px;
         height: 210px;
     }
-
+    
     .discount-text img {
-        width: 160px;
-        height: 160px;
-        left: 25px;
-        top: 4px;
-    }
-
+    width: 160px;
+    height: 160px;
+    left: 25px;
+    top: 4px;
+}
+    
     .discount-button {
-        position: fixed;
+    position: fixed;
         transform: scale(0.8);
         -ms-transform: scale(0.8);
         -moz-transform: scale(0.8);
         -webkit-transform: scale(0.8);
-        left: 23px;
-        bottom: 6px;
-    }
-
+    left: 23px;
+    bottom: 6px;
+}
+    
 }
