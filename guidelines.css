@@ -1,10 +1,6 @@
 html {
     scroll-behavior: smooth;
 }
-body:before{
-    background-image: url(https://onbrand.me/assets/logos/onbrand-blue.svg);
-}
-
 
 
 img {
@@ -67,6 +63,17 @@ li {
 
 .margin-top {
     margin-top: 32px;
+}
+
+.download-button {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.button-spacing {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 h1,
