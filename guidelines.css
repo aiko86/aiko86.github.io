@@ -83,7 +83,7 @@ li {
 
 h1,
 h2 {
-    color: #44444e;
+    color: #44444e !important;
     font-family: montserrat, sans-serif;
     font-size: 54px;
     font-weight: 700;
