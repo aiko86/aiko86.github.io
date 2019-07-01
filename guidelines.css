@@ -76,6 +76,11 @@ li {
     margin-bottom: 16px;
 }
 
+.button-spacing-font {
+        margin-top: 60px;
+    margin-bottom: 16px;
+}
+
 h1,
 h2 {
     color: #44444e;
