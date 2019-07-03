@@ -25,6 +25,10 @@ img {
     transition: all 0.3s ease;
 }
 
+ul {
+    list-style: none;
+}
+
 li {
     padding: 16px 0px 16px 0px;
 }
@@ -65,6 +69,10 @@ li {
     margin-top: 32px;
 }
 
+.small-margin-top {
+    margin-top: 12px;
+}
+
 .download-button {
     font-family: montserrat, sans-serif;
     font-weight: 600;
@@ -81,6 +89,7 @@ li {
         margin-top: 60px;
     margin-bottom: 16px;
 }
+
 
 h1,
 h2 {
@@ -230,6 +239,29 @@ h3 {
     padding-top: 140px;
 }
 
+.hover-text {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    color: rgb(68,68,78, 0.50);
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.guidelines-buttons {
+    margin: -11px 0px 104px 0px;
+    width: 240px;
+    height: 60px;
+    line-height: 2.8;
+    font-size: 20px;
+}
+
+.guidelines-buttons-second {
+        margin: -20px 0px 100px 0px;
+    width: 240px;
+    height: 45px;
+    line-height: 2.6;
+    font-size: 17px;
+}
 
 @keyframes backtotop {
 
