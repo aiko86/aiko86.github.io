@@ -86,7 +86,7 @@ li {
 }
 
 .button-spacing-font {
-        margin-top: 60px;
+    margin-top: 60px;
     margin-bottom: 16px;
 }
 
@@ -242,7 +242,7 @@ h3 {
 .hover-text {
     font-family: montserrat, sans-serif;
     font-weight: 600;
-    color: rgb(68,68,78, 0.50);
+    color: rgb(68, 68, 78, 0.50);
     font-size: 15px;
     margin-left: 16px;
 }
@@ -256,7 +256,7 @@ h3 {
 }
 
 .guidelines-buttons-second {
-        margin: -20px 0px 100px 0px;
+    margin: -20px 0px 0px 0px;
     width: 240px;
     height: 45px;
     line-height: 2.6;
@@ -383,6 +383,40 @@ h3 {
     }
 }
 
+@media (max-width: 1200px) {
+    .hover-text {
+        font-size: 11px;
+        margin-left: 48px;
+    }
+
+    .guidelines-buttons-second {
+        margin: -49px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 995px) {
+    .guidelines-buttons {
+        margin: -24px 0px 104px 0px;
+        width: 190px;
+        height: 45px;
+        line-height: 2.8;
+        font-size: 16px;
+    }
+    
+    .guidelines-buttons-second {
+        width: 190px;
+    height: 35px;
+    line-height: 2.6;
+    font-size: 13px;
+        margin: -59px 0px 0px 0px;
+    }
+
+    .hover-text {
+        font-size: 10px;
+        margin-left: 32px;
+    }
+}
+
 @media (min-width: 1200px) {
     .col-md-12-new {
         width: 100%;
@@ -400,8 +434,12 @@ h3 {
         opacity: 1;
         font-size: 14px;
     }
-    
+
     .download-button {
         font-size: 16px;
+    }
+    
+    .small-margin-top {
+        display: none;
     }
 }
