@@ -11,6 +11,10 @@ img {
     user-drag: none;
 }
 
+#cta {
+    margin-bottom: 120px;
+}
+
 .gradient-bar {
     height: 10px;
     height: 12px;
@@ -70,7 +74,7 @@ li {
 }
 
 .small-margin-top {
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 .download-button {
@@ -240,27 +244,33 @@ h3 {
 }
 
 .hover-text {
+    width: 100%;
     font-family: montserrat, sans-serif;
     font-weight: 600;
     color: rgb(68, 68, 78, 0.50);
     font-size: 15px;
-    margin-left: 16px;
+    margin-left: 36px;
 }
 
 .guidelines-buttons {
-    margin: -11px 0px 104px 0px;
-    width: 240px;
-    height: 60px;
+   margin: -16px 0px 0px 0px;
+    width: 270px;
+    height: 70px;
     line-height: 2.8;
-    font-size: 20px;
+    font-size: 23px;
+    border-radius: 50px;
 }
 
 .guidelines-buttons-second {
-    margin: -20px 0px 0px 0px;
-    width: 240px;
-    height: 45px;
+    margin: -18px 0px 0px 0px;
+    width: 270px;
+    height: 46px;
     line-height: 2.6;
     font-size: 17px;
+}
+
+.small-button {
+    margin: 66px 0px 0px 70px;
 }
 
 @keyframes backtotop {
@@ -386,17 +396,31 @@ h3 {
 @media (max-width: 1200px) {
     .hover-text {
         font-size: 11px;
-        margin-left: 48px;
+        margin-left: 60px;
+    }
+    
+    .guidelines-buttons {
+        width: 260px;
+    height: 60px;
+    font-size: 20px;
     }
 
     .guidelines-buttons-second {
-        margin: -49px 0px 0px 0px;
+        margin: -22px 0px 0px 0px;
+    width: 260px;
+    height: 43px;
+    font-size: 16px;
     }
+    
+    .small-button {
+        margin: 16px 0px 0px 55px !important;
+    }
+    
 }
 
 @media (max-width: 995px) {
     .guidelines-buttons {
-        margin: -24px 0px 104px 0px;
+        margin: -24px 0px 0px 0px;
         width: 190px;
         height: 45px;
         line-height: 2.8;
@@ -404,11 +428,11 @@ h3 {
     }
     
     .guidelines-buttons-second {
-        width: 190px;
-    height: 35px;
+       width: 190px;
+    height: 33px;
     line-height: 2.6;
-    font-size: 13px;
-        margin: -59px 0px 0px 0px;
+    font-size: 12px;
+    margin: -25px 0px 0px 0px;
     }
 
     .hover-text {
