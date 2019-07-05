@@ -253,7 +253,7 @@ h3 {
 }
 
 .guidelines-buttons {
-   margin: -16px 0px 0px 0px;
+    margin: -16px 0px 0px 0px;
     width: 270px;
     height: 70px;
     line-height: 2.8;
@@ -398,24 +398,28 @@ h3 {
         font-size: 11px;
         margin-left: 60px;
     }
-    
+
     .guidelines-buttons {
         width: 260px;
-    height: 60px;
-    font-size: 20px;
+        height: 60px;
+        font-size: 20px;
     }
 
     .guidelines-buttons-second {
         margin: -22px 0px 0px 0px;
-    width: 260px;
-    height: 43px;
-    font-size: 16px;
+        width: 260px;
+        height: 43px;
+        font-size: 16px;
     }
-    
+
+    .small-margin-top {
+        margin-top: 12px;
+    }
+
     .small-button {
-        margin: 16px 0px 0px 55px !important;
+        margin: 40px 0px 0px 80px;
     }
-    
+
 }
 
 @media (max-width: 995px) {
@@ -426,19 +430,24 @@ h3 {
         line-height: 2.8;
         font-size: 16px;
     }
-    
+
     .guidelines-buttons-second {
-       width: 190px;
-    height: 33px;
-    line-height: 2.6;
-    font-size: 12px;
-    margin: -25px 0px 0px 0px;
+        width: 190px;
+        height: 33px;
+        line-height: 2.6;
+        font-size: 12px;
+        margin: -25px 0px 0px 0px;
     }
 
     .hover-text {
         font-size: 10px;
         margin-left: 32px;
     }
+
+    .small-button {
+        margin: 10px 0px 0px 54px;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -462,7 +471,7 @@ h3 {
     .download-button {
         font-size: 16px;
     }
-    
+
     .small-margin-top {
         display: none;
     }

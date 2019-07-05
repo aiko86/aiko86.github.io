@@ -1,0 +1,26 @@
+.event-card {
+    max-width: 328px;
+    height: 328px;
+    box-shadow: 0 0 30px rgba(0,0,0,.05);
+    border-radius: 7px;
+}
+
+.event-container {
+    margin: auto;
+}
+
+.workshop-hero {
+    background-image: url(assets/images/events/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 768px) {
+
+.workshop-margin {
+    margin-top: 40px;
+    display: flex;
+}
+    
+}
