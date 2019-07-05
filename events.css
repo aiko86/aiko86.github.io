@@ -9,6 +9,10 @@
     margin: auto;
 }
 
+.margin-16 {
+    margin-top: 16px;
+}
+
 .workshop-hero {
     background-image: url(assets/images/events/hero.jpg);
     background-repeat: no-repeat;
